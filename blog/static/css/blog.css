@@ -39,13 +39,12 @@ p{
     text-decoration: none;
 }
 
-
-/* h1,
+h1,
 h2,
 h3,
 h4 {
-    font-family: 'Lobster', cursive;
-} */
+    font-family: "Caveat", cursive;
+}
 
 .date {
     font-family: "Caveat", cursive;
@@ -70,8 +69,8 @@ h4 {
     margin-right: 20px;
 }
 
-.porfolio h2 a,
-.porfolio h2 a:visited {
+.portfolio h2 a,
+.portfolio h2 a:visited {
     color: #e4de63;
 }
 
