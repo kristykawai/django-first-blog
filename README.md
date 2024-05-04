@@ -1,5 +1,7 @@
 # django-first-blog
-A django blog practice tutored by Djangogirls 2024
+A django blog practice tutored by Djangogirls 2024.
+Tutorial link:
+https://tutorial.djangogirls.org/en/
 
 ![image](https://github.com/kristykawai/django-first-blog/assets/43509955/8496392b-9f9f-4853-82d2-23b38dedfe08)
 
