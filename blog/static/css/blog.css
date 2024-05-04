@@ -1,29 +1,112 @@
-h1 a, h2 a {
-    color: #333399;
-    font-family: 'Lobster';
-}
-
-p {
-    colour: #666699;
+a{
+    color: #9b1fa6;
     font-family: "Caveat", cursive;
+    font-size: 30px;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
-    
 
-<a href="https://en.wikipedia.org/wiki/Django" class="external_link" id="link_to_wiki_page">
 
-#bg{
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 960px 242px;
-    background-attachment: fixed;
-    /* background:url('https://as1.ftcdn.net/v2/jpg/03/03/36/10/1000_F_303361005_B3EgdOHbgeoEieg7M3GnFpyYBhO274l9.jpg');
-    width:100%;
-    min-height:189px; */
+p{
+    color: #333399;
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
-body {
+
+bg{
+    background-repeat: repeat;
+    background-position: top;
+    background-size: 736px 1308px;
+    background-attachment: fixed;
+}
+
+/* title {
+    color: #333399;
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+} */
+
+/* body {
     padding-left: 15px;
+} */
+
+.page-header {
+    background-color: #333399;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: red;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #1aac34;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: #333399;
+    font-family: "Caveat", cursive;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea,
+.post-form input {
+    width: 100%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a,
+.post h2 a:visited {
+    color: yellow;
+    font-family: "Caveat", cursive;
+}
+
+.post > .date,
+.post > .actions {
+    float: right;
+    font-family: "Caveat", cursive;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #25a57f;
+    background: none;
+    border-color: #3e8cda;
+}
+
+.btn-secondary:hover {
+    color: #FFFFFF;
+    background-color: #333399;
 }
